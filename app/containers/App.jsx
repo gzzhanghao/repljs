@@ -33,7 +33,7 @@ class App extends Component {
   render() {
     return (
       <app className={style.app}>
-        <textarea className={style.input} onChange={this.onChange} autoFocus={true}></textarea>
+        <textarea className={style.input} onChange={this.onChange} autoFocus={true} spellCheck="false"></textarea>
         <pre className={style.output}>{this.props.output}</pre>
       </app>
     )
