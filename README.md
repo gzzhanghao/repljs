@@ -12,4 +12,4 @@ npm i && npm run build && npm start
 
 ## Browser support
 
-Should work on Chrome 49 and Safari 9, did not tested on other browsers. :P
+Should work on Chrome 49, did not tested on other browsers. :P
