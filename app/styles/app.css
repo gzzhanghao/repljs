@@ -18,6 +18,12 @@ body,
   height: 100%;
 }
 
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+}
+
 .input,
 .output {
   flex: 50% 1 1;
