@@ -1,0 +1,29 @@
+html,
+body,
+:global(#container) {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.app {
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+}
+
+.input,
+.output {
+  flex: 50% 1 1;
+  margin: 0;
+  padding: .2rem;
+  height: 100%;
+  overflow: auto;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
