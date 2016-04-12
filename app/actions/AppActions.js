@@ -18,8 +18,7 @@ export function unmount() {
 
 export function update(script) {
   return (dispatch, getState) => {
-    const { evaluator, history } = getState()
-    evaluator.evaluate(script)
+    getState().evaluator.evaluate(script)
     return dispatch({ type: 'Editor.update', script })
   }
 }
