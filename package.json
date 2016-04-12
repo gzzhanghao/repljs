@@ -19,6 +19,7 @@
     "babel-plugin-transform-es2015-destructuring": "^6.6.5",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4",
     "babel-plugin-transform-es2015-parameters": "^6.7.0",
+    "babel-plugin-transform-strict-mode": "^6.6.5",
     "babel-preset-react": "^6.5.0",
     "css-loader": "^0.23.1",
     "postcss-loader": "^0.8.2",
